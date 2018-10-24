@@ -1,6 +1,6 @@
 # DRBox
 By Lei Liu (mail: lliu1@mail.ie.ac.cn)
-### For the sake of simplicity, I modified the Makefile and Make config to match a GCP Ubuntu 16.04 env
+### For the sake of simplicity, I modified the Makefile, Make.config and CMakeLists.txt to match a GCP Ubuntu 16.04 env
 ### Introduction
 DRBox is used for detection tasks where the objects are orientated arbitrarily. This code show examples that DRBox is used to detect vehicles, ships and airplanes in remote sensing images. I'm also looking forward for its use in other problems.
 
