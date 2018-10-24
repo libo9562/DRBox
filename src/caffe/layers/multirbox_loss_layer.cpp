@@ -239,7 +239,7 @@ LossParameter_NormalizationMode_VALID :
 			LOG(INFO)<<"waiting key:";
 			getchar();
 			//LOG(FATAL)<<"Stop for debugging";
-			/**************************************************************************************/
+			*************************************************************************************/
 			int tmp = 2;
 			if (regress_angle_) tmp ++;
 			if (regress_size_) tmp += 2;
