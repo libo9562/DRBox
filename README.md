@@ -9,5 +9,6 @@ After clone this repo
 do
 ```Shell
 cd DRBox
-drbox-setup.sh
+chmod +x ./drbox-setup.sh
+./drbox-setup.sh
 ```
