@@ -8,6 +8,12 @@ https://medium.com/@mengjiunchiou/build-opencv-caffe-with-cuda-9-0-on-ubuntu-16-
 After clone this repo 
 do
 ```Shell
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install nvidia-384 nvidia-modprobe
+```
+Reboot the instance
+```Shell
 cd DRBox
 chmod +x ./drbox-setup.sh
 ./drbox-setup.sh
