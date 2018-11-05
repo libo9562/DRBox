@@ -44,3 +44,6 @@ python -m pip install pip==9.0.3 --upgrade --force-reinstall
 for req in $(cat requirements.txt); do sudo -H pip install $req --upgrade; done
 cd ..
 make -j8
+make pycaffe
+make test -j8
+make runtest
