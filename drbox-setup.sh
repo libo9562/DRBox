@@ -40,7 +40,7 @@ sudo apt-get install -y python-opencv
 
 # need more python package
 cd python
-pip install -upgrade pip
+python -m pip install pip==9.0.3 --upgrade --force-reinstall
 for req in $(cat requirements.txt); do sudo -H pip install $req --upgrade; done
 cd ..
 make -j8
