@@ -16,6 +16,15 @@ sudo reboot
 Then do
 ```Shell
 cd DRBox
+```
+If working on ships
+```Shell
+mv src/caffe/util/rbox_util.cpp src/caffe/util/rbox_util.cpp.old
+mv src/caffe/util/rbox_util.cpp.ship src/caffe/util/rbox_util.cpp
+```
+Install and build
+```Shell
 chmod +x ./drbox-setup.sh
 ./drbox-setup.sh
 ```
+Please refer to the original readme for the auther's instructions.
