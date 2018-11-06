@@ -11,8 +11,9 @@ do
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install nvidia-384 nvidia-modprobe
+sudo reboot
 ```
-Reboot the instance
+Then do
 ```Shell
 cd DRBox
 chmod +x ./drbox-setup.sh
